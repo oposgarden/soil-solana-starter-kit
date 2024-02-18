@@ -35,11 +35,6 @@ Environment variables required:
 | NEXTAUTH_URL    | Not required if you're deploying to Vercel since it's automatically added                                   |
 | NEXTAUTH_SECRET | You can use `openssl rand -base64 32` or https://generate-secret.vercel.app/32 to generate a random value.  |
 
-## Learn More
+## Get in touch
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you'd like to contribute or discuss, reach out on X at [@oposgarden](https://twitter.com/oposgarden) or [@johnanthos](https://twitter.com/johnanthos).
