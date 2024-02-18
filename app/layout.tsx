@@ -9,7 +9,7 @@ import '@solana/wallet-adapter-react-ui/styles.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Solana Starter Kit',
+  title: 'Soil - Solana Starter Kit',
   description: 'Next.js, Prisma and Next-auth Solana starter kit',
 }
 

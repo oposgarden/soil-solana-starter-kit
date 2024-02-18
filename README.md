@@ -1,6 +1,10 @@
-# Solana Starter Kit
+<img src="https://github.com/johnanthos/solana-starter-kit/assets/97734034/d1b7b200-38cf-4b05-95f0-929be8d72d1f" alt="Soil" style="max-width:512px;" />
 
-This is a template starter for any Solana project that requires authentication with signature and storage of user's information.
+# Soil - Solana Starter Kit
+
+This is a template starter for any Solana project that requires authentication with signature and storage of user's information. The goal is to allow anyone that requires authentication, user persistence and database management in its project to bootstrap it and get going fast.
+
+_Note: depending on this project's interest, it may grow and morph into different tools and use-cases._
 
 It uses:
 
@@ -22,6 +26,14 @@ It uses:
 ## Deployment
 
 This project can be deployed on [Vercel](https://vercel.com/) as is by configuring the environment variables on the project created and use a database provider such as [Supabase](https://supabase.com/).
+
+Environment variables required:
+
+| Name            | Description                                                                                                 |
+| --------------- | ----------------------------------------------------------------------------------------------------------- |
+| DATABASE_URL    | Database url for connection with the format `postgresql://[user]:[password]@127.0.0.1:5432/[database-name]` |
+| NEXTAUTH_URL    | Not required if you're deploying to Vercel since it's automatically added                                   |
+| NEXTAUTH_SECRET | You can use `openssl rand -base64 32` or https://generate-secret.vercel.app/32 to generate a random value.  |
 
 ## Learn More
 
